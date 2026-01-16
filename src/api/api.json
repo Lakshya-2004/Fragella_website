@@ -1,0 +1,545 @@
+
+  [
+  {
+    "id": 1,
+    "brand": "Chanel",
+    "perfume": "Chanel No. 5",
+    "description": "Classic floral fragrance with notes of jasmine and rose.",
+    "detailedDescription": "Chanel No. 5 is an iconic fragrance combining aldehydes, jasmine, rose, and ylang-ylang. Perfect for formal evenings or making a statement, it embodies elegance and timeless femininity.",
+    "price": 120,
+    "category": "women",
+    "ingredients": ["Jasmine", "Rose", "Sandalwood", "Vanilla", "Ylang-Ylang"],
+    "image": "/public/id1.jpg",
+    "reviews": [
+      {"user": "Sophia", "rating": 5, "comment": "Absolutely timeless! Everyone asks what I’m wearing."},
+      {"user": "Emma", "rating": 4, "comment": "Beautiful scent, but a bit strong for daytime use."}
+    ]
+  },
+  {
+    "id": 2,
+    "brand": "Dior",
+    "perfume": "Sauvage",
+    "description": "Fresh and spicy fragrance with bergamot and pepper.",
+    "detailedDescription": "Sauvage by Dior is a bold and invigorating fragrance for men. With top notes of bergamot and a heart of Sichuan pepper, it balances freshness with a warm, earthy base, ideal for both casual and formal wear.",
+    "price": 95,
+    "category": "men",
+    "ingredients": ["Bergamot", "Pepper", "Ambroxan", "Lavender", "Patchouli"],
+    "image": "/public/id2.jpg",
+    "reviews": [
+      {"user": "Liam", "rating": 5, "comment": "Very masculine and long-lasting. My go-to fragrance!"},
+      {"user": "Noah", "rating": 4, "comment": "Fresh and pleasant, though slightly expensive."}
+    ]
+  },
+  {
+    "id": 3,
+    "brand": "Tom Ford",
+    "perfume": "Black Orchid",
+    "description": "Luxurious unisex scent with dark chocolate and orchid notes.",
+    "detailedDescription": "Black Orchid by Tom Ford is a sensual, opulent fragrance perfect for evening wear. The blend of black truffle, orchid, and rich chocolate creates a mysterious, unforgettable aroma.",
+    "price": 150,
+    "category": "unisex",
+    "ingredients": ["Black Truffle", "Black Orchid", "Chocolate", "Patchouli", "Incense"],
+    "image": "/public/id3.jpg",
+    "reviews": [
+      {"user": "Olivia", "rating": 5, "comment": "Deep, sensual scent. Perfect for a night out."},
+      {"user": "Ethan", "rating": 4, "comment": "Unique and luxurious, though heavy for daytime."}
+    ]
+  },
+  {
+    "id": 4,
+    "brand": "Gucci",
+    "perfume": "Bloom",
+    "description": "Floral and elegant fragrance for women with tuberose and jasmine.",
+    "detailedDescription": "Gucci Bloom captures the essence of a flourishing garden. With notes of tuberose, jasmine, and Rangoon creeper, it offers a fresh and elegant floral experience, perfect for spring and summer wear.",
+    "price": 110,
+    "category": "women",
+    "ingredients": ["Tuberose", "Jasmine", "Rangoon Creeper"],
+    "image": "/public/id4.jpg",
+    "reviews": [
+      {"user": "Ava", "rating": 5, "comment": "Fresh and feminine. A very uplifting fragrance!"},
+      {"user": "Mia", "rating": 4, "comment": "Lovely scent, but a bit subtle for my taste."}
+    ]
+  },
+  {
+    "id": 5,
+    "brand": "Versace",
+    "perfume": "Eros",
+    "description": "Bold, woody fragrance with mint and green apple notes.",
+    "detailedDescription": "Versace Eros is a passionate and vibrant fragrance for men. The combination of mint, green apple, and tonka bean creates a bold and seductive scent, perfect for confident personalities.",
+    "price": 105,
+    "category": "men",
+    "ingredients": ["Mint", "Green Apple", "Tonka Bean", "Vanilla", "Ambroxan"],
+    "image": "/public/id5.jpg",
+    "reviews": [
+      {"user": "James", "rating": 5, "comment": "Sexy and long-lasting. Great for evenings!"},
+      {"user": "Alexander", "rating": 4, "comment": "Fresh but can be a bit overpowering for small spaces."}
+    ]
+  },
+  {
+    "id": 6,
+    "brand": "Jo Malone",
+    "perfume": "Wood Sage & Sea Salt",
+    "description": "Fresh and airy unisex fragrance with sea salt and sage.",
+    "detailedDescription": "Jo Malone's Wood Sage & Sea Salt evokes the freedom of the British coast. With a refreshing sea salt note paired with earthy sage, it’s a perfect unisex fragrance for casual day wear.",
+    "price": 130,
+    "category": "unisex",
+    "ingredients": ["Sea Salt", "Sage", "Grapefruit", "Red Algae"],
+    "image": "/public/id6.jpg",
+    "reviews": [
+      {"user": "Isabella", "rating": 5, "comment": "Extremely refreshing! I feel like I’m by the sea."},
+      {"user": "Lucas", "rating": 4, "comment": "Lovely scent, but fades a little quickly."}
+    ]
+  },
+  {
+    "id": 7,
+    "brand": "Prada",
+    "perfume": "Candy",
+    "description": "Sweet and playful fragrance for women with caramel and musk.",
+    "detailedDescription": "Prada Candy is a fun and flirty fragrance with notes of caramel, musk, and vanilla. It's perfect for young and playful personalities, offering a sweet yet sophisticated aroma.",
+    "price": 90,
+    "category": "women",
+    "ingredients": ["Caramel", "Musk", "Vanilla", "Benzoin"],
+    "image": "/public/id7.jpg",
+    "reviews": [
+      {"user": "Ella", "rating": 5, "comment": "Sweet and delightful. Perfect for casual outings."},
+      {"user": "Chloe", "rating": 4, "comment": "Lovely candy scent, though a bit too sweet for office wear."}
+    ]
+  },
+  {
+    "id": 8,
+    "brand": "Hugo Boss",
+    "perfume": "Boss Bottled",
+    "description": "Warm and masculine fragrance with apple, cinnamon, and woody notes.",
+    "detailedDescription": "Boss Bottled by Hugo Boss is a classic masculine fragrance blending apple, cinnamon, and woody notes. It’s suitable for both professional and casual occasions, giving a sophisticated aura.",
+    "price": 85,
+    "category": "men",
+    "ingredients": ["Apple", "Cinnamon", "Sandalwood", "Cedarwood", "Vanilla"],
+    "image": "/public/id8.jpg",
+    "reviews": [
+      {"user": "Benjamin", "rating": 5, "comment": "Warm and inviting. I receive compliments every time."},
+      {"user": "Henry", "rating": 4, "comment": "Classic scent but a bit common."}
+    ]
+  },
+  {
+    "id": 9,
+    "brand": "Calvin Klein",
+    "perfume": "CK One",
+    "description": "Fresh and clean unisex fragrance with citrus and green notes.",
+    "detailedDescription": "CK One is a unisex fragrance with refreshing citrus, green tea, and musk notes. Light and versatile, it is perfect for everyday wear and a great choice for both men and women.",
+    "price": 75,
+    "category": "unisex",
+    "ingredients": ["Bergamot", "Cardamom", "Pineapple", "Green Tea", "Musk"],
+    "image": "/public/id9.jpg",
+    "reviews": [
+      {"user": "Lily", "rating": 5, "comment": "Light and refreshing, perfect for summer."},
+      {"user": "Jack", "rating": 4, "comment": "Nice unisex scent, but could be stronger."}
+    ]
+  },
+  {
+    "id": 10,
+    "brand": "Yves Saint Laurent",
+    "perfume": "Mon Paris",
+    "description": "Romantic fragrance for women with strawberry, peony, and patchouli.",
+    "detailedDescription": "Mon Paris by YSL is a romantic scent with juicy strawberry, peony, and earthy patchouli. Ideal for evenings and special occasions, it’s perfect for women who love sweet and sophisticated aromas.",
+    "price": 115,
+    "category": "women",
+    "ingredients": ["Strawberry", "Peony", "Patchouli", "Pachouli", "Musk"],
+    "image": "/public/id10.jpg",
+    "reviews": [
+      {"user": "Grace", "rating": 5, "comment": "Sweet, romantic, and elegant. I love it!"},
+      {"user": "Zoe", "rating": 4, "comment": "Lovely scent but slightly overpowering for daytime."}
+    ]
+  },
+  {
+    "id": 11,
+    "brand": "Armani",
+    "perfume": "Acqua di Gio",
+    "description": "Fresh aquatic scent for men with citrus and jasmine notes.",
+    "detailedDescription": "Acqua di Gio is a light, fresh, and aquatic fragrance for men with top notes of citrus and heart notes of jasmine. Perfect for daytime wear or summer outings.",
+    "price": 100,
+    "category": "men",
+    "ingredients": ["Bergamot", "Jasmine", "Marine Notes", "Patchouli", "Cedar"],
+    "image": "/public/id11.jpg",
+    "reviews": [
+      {"user": "Oliver", "rating": 5, "comment": "Crisp and refreshing, perfect summer scent."},
+      {"user": "Ethan", "rating": 4, "comment": "Nice scent but fades quickly."}
+    ]
+  },
+
+ {
+  "id": 12,
+  "brand": "Burberry",
+  "perfume": "Her",
+  "description": "Sweet and fruity fragrance for women with berries and jasmine.",
+  "detailedDescription": "Burberry Her is a vibrant, fruity-floral fragrance that balances juicy berries with soft jasmine. Perfect for daily wear, it embodies youthful energy and elegance.",
+  "price": 95,
+  "category": "women",
+  "ingredients": ["Strawberry", "Raspberry", "Blackcurrant", "Jasmine"],
+  "image": "/public/id12.jpg",
+  "reviews": [
+    {"user": "Emma", "rating": 5, "comment": "Fruity and uplifting, a perfect everyday scent!"},
+    {"user": "Sophia", "rating": 4, "comment": "Very fresh, though fades a bit quickly."}
+  ]
+},
+{
+  "id": 13,
+  "brand": "Mont Blanc",
+  "perfume": "Explorer",
+  "description": "Woody and aromatic fragrance for men with bergamot and vetiver.",
+  "detailedDescription": "Mont Blanc Explorer is a masculine and adventurous fragrance with top notes of bergamot and heart notes of vetiver. Ideal for modern men seeking a versatile and refined scent.",
+  "price": 90,
+  "category": "men",
+  "ingredients": ["Bergamot", "Vetiver", "Patchouli", "Ambroxan"],
+  "image": "/public/id13.jpg",
+  "reviews": [
+    {"user": "Liam", "rating": 5, "comment": "Elegant and masculine, perfect for work or casual outings."},
+    {"user": "Noah", "rating": 4, "comment": "Great scent, but not very unique."}
+  ]
+},
+{
+  "id": 14,
+  "brand": "Hermès",
+  "perfume": "Terre d'Hermès",
+  "description": "Earthy and woody fragrance for men with orange and cedar.",
+  "detailedDescription": "Terre d'Hermès captures earthy and woody notes blended with fresh citrus. Sophisticated and long-lasting, it's perfect for confident men who enjoy timeless elegance.",
+  "price": 105,
+  "category": "men",
+  "ingredients": ["Orange", "Grapefruit", "Cedar", "Vetiver", "Patchouli"],
+  "image": "/public/id14.jpg",
+  "reviews": [
+    {"user": "Ethan", "rating": 5, "comment": "Rich and sophisticated scent, perfect for special occasions."},
+    {"user": "James", "rating": 4, "comment": "Elegant, but slightly strong for daytime."}
+  ]
+},
+{
+  "id": 15,
+  "brand": "Givenchy",
+  "perfume": "L'Interdit",
+  "description": "Floral and elegant fragrance for women with orange blossom and vetiver.",
+  "detailedDescription": "L'Interdit by Givenchy is a bold yet feminine fragrance. It combines floral notes with a sophisticated woody base, perfect for evening wear and special moments.",
+  "price": 110,
+  "category": "women",
+  "ingredients": ["Orange Blossom", "Jasmine", "Patchouli", "Vetiver"],
+  "image": "/public/id15.jpg",
+  "reviews": [
+    {"user": "Olivia", "rating": 5, "comment": "Elegant and feminine, love the subtle intensity."},
+    {"user": "Ava", "rating": 4, "comment": "Beautiful scent, but a bit pricey."}
+  ]
+},
+{
+  "id": 16,
+  "brand": "Dolce & Gabbana",
+  "perfume": "Light Blue",
+  "description": "Fresh citrusy fragrance for women with apple and cedarwood.",
+  "detailedDescription": "Light Blue is a refreshing, citrus-inspired fragrance ideal for warm weather. With notes of Sicilian lemon, apple, and cedarwood, it evokes Mediterranean summer vibes.",
+  "price": 95,
+  "category": "women",
+  "ingredients": ["Sicilian Lemon", "Apple", "Cedarwood", "Bamboo"],
+  "image": "/public/id16.jpg",
+  "reviews": [
+    {"user": "Mia", "rating": 5, "comment": "Fresh and vibrant! Perfect for summer days."},
+    {"user": "Grace", "rating": 4, "comment": "Lovely scent, but can be a bit light in winter."}
+  ]
+},
+{
+  "id": 17,
+  "brand": "Yves Saint Laurent",
+  "perfume": "Libre",
+  "description": "Modern and elegant fragrance for women with lavender and orange blossom.",
+  "detailedDescription": "Libre combines floral and aromatic notes with a modern twist. Its lavender and orange blossom accord makes it bold, confident, and ideal for statement wear.",
+  "price": 120,
+  "category": "women",
+  "ingredients": ["Lavender", "Orange Blossom", "Vanilla", "Musk"],
+  "image": "/public/id17.jpg",
+  "reviews": [
+    {"user": "Charlotte", "rating": 5, "comment": "Strong and elegant. Perfect for evening events."},
+    {"user": "Amelia", "rating": 4, "comment": "Unique scent, though a bit overpowering for casual wear."}
+  ]
+},
+{
+  "id": 18,
+  "brand": "Paco Rabanne",
+  "perfume": "1 Million",
+  "description": "Spicy and sweet fragrance for men with cinnamon and leather.",
+  "detailedDescription": "1 Million is a warm, spicy fragrance that combines cinnamon, leather, and woody notes. Ideal for confident, outgoing men who want a bold signature scent.",
+  "price": 95,
+  "category": "men",
+  "ingredients": ["Blood Mandarin", "Cinnamon", "Rose", "Leather"],
+  "image": "/public/id18.jpg",
+  "reviews": [
+    {"user": "Logan", "rating": 5, "comment": "Bold and irresistible, perfect for night outs."},
+    {"user": "Mason", "rating": 4, "comment": "Very strong, so apply sparingly."}
+  ]
+},
+{
+  "id": 19,
+  "brand": "Valentino",
+  "perfume": "Donna",
+  "description": "Chic and floral fragrance for women with bergamot and iris.",
+  "detailedDescription": "Valentino Donna is a sophisticated and elegant fragrance for women. With notes of bergamot, iris, and rose, it’s perfect for formal events and romantic evenings.",
+  "price": 105,
+  "category": "women",
+  "ingredients": ["Bergamot", "Iris", "Rose", "Patchouli"],
+  "image": "/public/id19.jpg",
+  "reviews": [
+    {"user": "Harper", "rating": 5, "comment": "Elegant and classy. Loved the floral notes."},
+    {"user": "Evelyn", "rating": 4, "comment": "Lovely fragrance, slightly expensive."}
+  ]
+},
+{
+  "id": 20,
+  "brand": "Maison Margiela",
+  "perfume": "Replica Jazz Club",
+  "description": "Unisex scent with rum, tobacco, and vanilla notes.",
+  "detailedDescription": "Replica Jazz Club is inspired by intimate jazz bars. It combines rum, tobacco, and vanilla to create a warm, smoky, and cozy fragrance, ideal for evening wear.",
+  "price": 140,
+  "category": "unisex",
+  "ingredients": ["Rum", "Tobacco", "Vanilla", "Leather"],
+  "image": "/public/id20.jpg",
+  "reviews": [
+    {"user": "William", "rating": 5, "comment": "Unique and cozy scent, perfect for winter nights."},
+    {"user": "Henry", "rating": 4, "comment": "Strong scent but very memorable."}
+  ]
+},
+{
+  "id": 21,
+  "brand": "Coach",
+  "perfume": "New York",
+  "description": "Modern and fresh fragrance for women with rose and peony notes.",
+  "detailedDescription": "Coach New York is a modern floral fragrance with rose, peony, and subtle musk. It’s perfect for city women seeking elegance and freshness in their everyday scent.",
+  "price": 85,
+  "category": "women",
+  "ingredients": ["Rose", "Peony", "Musk", "Cedar"],
+  "image": "/public/id21.jpg",
+  "reviews": [
+    {"user": "Ella", "rating": 5, "comment": "Fresh and feminine, I wear it daily."},
+    {"user": "Zoe", "rating": 4, "comment": "Lovely scent, not too overpowering."}
+  ]
+},
+{
+  "id": 22,
+  "brand": "Bvlgari",
+  "perfume": "Omnia Coral",
+  "description": "Fruity and floral fragrance for women with hibiscus and bergamot.",
+  "detailedDescription": "Omnia Coral is a playful, fruity-floral fragrance. With hibiscus and bergamot notes, it creates a bright and cheerful scent, ideal for spring and summer.",
+  "price": 95,
+  "category": "women",
+  "ingredients": ["Hibiscus", "Bergamot", "Mandarin", "Vanilla"],
+  "image": "/public/id22.jpg",
+  "reviews": [
+    {"user": "Lily", "rating": 5, "comment": "Bright and happy scent, perfect for sunny days."},
+    {"user": "Sofia", "rating": 4, "comment": "Very fresh, but fades faster than expected."}
+  ]
+},
+{
+  "id": 23,
+  "brand": "Clinique",
+  "perfume": "Happy",
+  "description": "Fresh, floral scent for women with citrus and lily notes.",
+  "detailedDescription": "Clinique Happy is a cheerful fragrance with citrus and lily. Light and uplifting, it’s perfect for daily wear and casual occasions.",
+  "price": 80,
+  "category": "women",
+  "ingredients": ["Lemon", "Lily", "Orchid", "Apple"],
+  "image": "/public/id23.jpg",
+  "reviews": [
+    {"user": "Mia", "rating": 5, "comment": "Fresh and vibrant. Makes me happy every time I wear it."},
+    {"user": "Chloe", "rating": 4, "comment": "Lovely, but needs reapplication during the day."}
+  ]
+},
+{
+  "id": 24,
+  "brand": "Ralph Lauren",
+  "perfume": "Polo Blue",
+  "description": "Fresh and aquatic fragrance for men with melon and cucumber.",
+  "detailedDescription": "Polo Blue by Ralph Lauren is a crisp and refreshing fragrance for men. With melon, cucumber, and basil notes, it evokes freedom, ideal for casual and outdoor occasions.",
+  "price": 90,
+  "category": "men",
+  "ingredients": ["Melon", "Cucumber", "Basil", "Musk"],
+  "image": "/public/id24.jpg",
+  "reviews": [
+    {"user": "Logan", "rating": 5, "comment": "Crisp and refreshing, perfect summer fragrance."},
+    {"user": "Mason", "rating": 4, "comment": "Nice scent but not long-lasting."}
+  ]
+},
+{
+  "id": 25,
+  "brand": "YSL",
+  "perfume": "Black Opium",
+  "description": "Sweet and warm fragrance for women with coffee and vanilla.",
+  "detailedDescription": "Black Opium by YSL is a seductive fragrance with coffee, vanilla, and white flowers. Ideal for evening wear, it balances sweetness with mystery.",
+  "price": 110,
+  "category": "women",
+  "ingredients": ["Coffee", "Vanilla", "White Flowers", "Sugar"],
+  "image": "/public/id25.jpg",
+  "reviews": [
+    {"user": "Amelia", "rating": 5, "comment": "Sweet and addictive. I always get compliments."},
+    {"user": "Grace", "rating": 4, "comment": "Lovely scent, strong but elegant."}
+  ]
+  },
+
+  {
+  "id": 26,
+  "brand": "Joop!",
+  "perfume": "Homme",
+  "description": "Spicy and oriental scent for men with cinnamon and vanilla.",
+  "detailedDescription": "Joop! Homme is an intense, spicy-oriental fragrance featuring cinnamon, vanilla, and tonka bean. Bold and sensual, it’s perfect for evening wear and confident men.",
+  "price": 85,
+  "category": "men",
+  "ingredients": ["Cinnamon", "Vanilla", "Orange", "Tonka Bean"],
+  "image": "/public/id26.jpg",
+  "reviews": [
+    {"user": "Alexander", "rating": 5, "comment": "Warm and long-lasting, very seductive."},
+    {"user": "Daniel", "rating": 4, "comment": "Strong scent, but not for casual use."}
+  ]
+},
+{
+  "id": 27,
+  "brand": "Kenzo",
+  "perfume": "Flower by Kenzo",
+  "description": "Floral fragrance for women with poppy and vanilla notes.",
+  "detailedDescription": "Flower by Kenzo is a soft floral fragrance with a powdery sweetness from poppy and vanilla. Feminine and romantic, ideal for daily wear and springtime.",
+  "price": 100,
+  "category": "women",
+  "ingredients": ["Poppy", "Vanilla", "Incense", "White Musk"],
+  "image": "/public/id27.jpg",
+  "reviews": [
+    {"user": "Isabella", "rating": 5, "comment": "Soft, elegant, and comforting."},
+    {"user": "Sophia", "rating": 4, "comment": "Very floral, slightly light for winter."}
+  ]
+},
+{
+  "id": 28,
+  "brand": "Giorgio Armani",
+  "perfume": "Si",
+  "description": "Modern fragrance for women with blackcurrant and rose notes.",
+  "detailedDescription": "Si by Giorgio Armani is a modern, chic fragrance combining blackcurrant, rose, and woody notes. Strong yet feminine, perfect for confident women.",
+  "price": 120,
+  "category": "women",
+  "ingredients": ["Blackcurrant", "Rose", "Vanilla", "Woody Notes"],
+  "image": "/public/id28.jpg",
+  "reviews": [
+    {"user": "Emma", "rating": 5, "comment": "Elegant and sophisticated, lasts all day."},
+    {"user": "Olivia", "rating": 4, "comment": "Lovely scent, strong yet balanced."}
+  ]
+},
+{
+  "id": 29,
+  "brand": "Thierry Mugler",
+  "perfume": "Alien",
+  "description": "Mystical and floral scent for women with jasmine and wood notes.",
+  "detailedDescription": "Alien is a mysterious floral fragrance with jasmine, amber, and woody notes. Intense and captivating, ideal for evening wear and special occasions.",
+  "price": 130,
+  "category": "women",
+  "ingredients": ["Jasmine", "Wood", "Amber", "White Flowers"],
+  "image": "/public/id29.jpg",
+  "reviews": [
+    {"user": "Charlotte", "rating": 5, "comment": "Unique and powerful, I always get compliments."},
+    {"user": "Amelia", "rating": 4, "comment": "Very intense, perfect for night events."}
+  ]
+},
+{
+  "id": 30,
+  "brand": "Viktor & Rolf",
+  "perfume": "Flowerbomb",
+  "description": "Explosive floral fragrance for women with jasmine and orchid.",
+  "detailedDescription": "Flowerbomb is a rich floral fragrance featuring jasmine, orchid, and patchouli. Sweet and glamorous, ideal for evening wear or romantic outings.",
+  "price": 140,
+  "category": "women",
+  "ingredients": ["Jasmine", "Orchid", "Patchouli", "Rose"],
+  "image": "/public/id30.jpg",
+  "reviews": [
+    {"user": "Harper", "rating": 5, "comment": "Absolutely gorgeous, lasts all day!"},
+    {"user": "Evelyn", "rating": 4, "comment": "Very floral, might be too sweet for some."}
+  ]
+},
+{
+  "id": 31,
+  "brand": "Dior",
+  "perfume": "Addict",
+  "description": "Sensual and warm scent for women with vanilla and orange blossom.",
+  "detailedDescription": "Dior Addict is a deep, sensual fragrance with vanilla, orange blossom, and jasmine. Bold and confident, perfect for evening wear and special occasions.",
+  "price": 125,
+  "category": "women",
+  "ingredients": ["Vanilla", "Orange Blossom", "Jasmine", "Musk"],
+  "image": "/public/id31.jpg",
+  "reviews": [
+    {"user": "Amelia", "rating": 5, "comment": "Strong, warm, and seductive, love it."},
+    {"user": "Grace", "rating": 4, "comment": "Intense fragrance, needs careful application."}
+  ]
+},
+{
+  "id": 32,
+  "brand": "Tommy Hilfiger",
+  "perfume": "Tommy",
+  "description": "Fresh and aromatic fragrance for men with mint and grapefruit.",
+  "detailedDescription": "Tommy is a refreshing, aromatic fragrance for men with mint, grapefruit, and lavender. Clean and casual, perfect for daily wear and outdoor activities.",
+  "price": 80,
+  "category": "men",
+  "ingredients": ["Mint", "Grapefruit", "Amber", "Lavender"],
+  "image": "/public/id32.jpg",
+  "reviews": [
+    {"user": "Liam", "rating": 5, "comment": "Fresh and clean, great for summer."},
+    {"user": "Noah", "rating": 4, "comment": "Very casual scent, fades after a few hours."}
+  ]
+},
+{
+  "id": 33,
+  "brand": "Elizabeth Arden",
+  "perfume": "Green Tea",
+  "description": "Refreshing unisex fragrance with green tea and citrus notes.",
+  "detailedDescription": "Green Tea by Elizabeth Arden is a light, refreshing fragrance for both men and women. Crisp citrus and green tea notes create an uplifting daily wear scent.",
+  "price": 70,
+  "category": "unisex",
+  "ingredients": ["Green Tea", "Lemon", "Mint", "Orange"],
+  "image": "/public/id33.jpg",
+  "reviews": [
+    {"user": "Mia", "rating": 5, "comment": "Light, fresh, perfect for hot days."},
+    {"user": "Chloe", "rating": 4, "comment": "Refreshing but needs reapplication."}
+  ]
+},
+{
+  "id": 34,
+  "brand": "Narciso Rodriguez",
+  "perfume": "For Her",
+  "description": "Elegant floral fragrance for women with musk and rose.",
+  "detailedDescription": "For Her is an elegant, soft floral fragrance with musk, rose, and amber. Sophisticated yet understated, perfect for office or casual wear.",
+  "price": 115,
+  "category": "women",
+  "ingredients": ["Musk", "Rose", "Amber", "Patchouli"],
+  "image": "/public/id34.jpg",
+  "reviews": [
+    {"user": "Sophia", "rating": 5, "comment": "Elegant and smooth, perfect for every day."},
+    {"user": "Emma", "rating": 4, "comment": "Lovely fragrance, slightly subtle."}
+  ]
+},
+{
+  "id": 35,
+  "brand": "Hermès",
+  "perfume": "Twilly d’Hermès",
+  "description": "Playful fragrance for women with ginger, tuberose, and sandalwood.",
+  "detailedDescription": "Twilly d’Hermès is a playful and vibrant fragrance, with ginger, tuberose, and sandalwood. Bold yet fun, perfect for young and adventurous women.",
+  "price": 105,
+  "category": "women",
+  "ingredients": ["Ginger", "Tuberose", "Sandalwood", "Vanilla"],
+  "image": "/public/id35.jpg",
+  "reviews": [
+    {"user": "Olivia", "rating": 5, "comment": "Fun and spicy, very unique."},
+    {"user": "Ava", "rating": 4, "comment": "Vibrant scent, lasts a moderate time."}
+  ]
+},
+{
+  "id": 36,
+  "brand": "Calvin Klein",
+  "perfume": "Eternity",
+  "description": "Timeless fresh fragrance for men and women with notes of citrus, lily, and sandalwood.",
+  "detailedDescription": "Eternity is a classic unisex fragrance with citrus, lily, and sandalwood. Timeless, fresh, and versatile, ideal for daily wear and romantic evenings.",
+  "price": 100,
+  "category": "unisex",
+  "ingredients": ["Citrus", "Lily", "Sandalwood", "Musk"],
+  "image": "/public/id36.jpg",
+  "reviews": [
+    {"user": "Ethan", "rating": 5, "comment": "Classic and fresh, never goes out of style."},
+    {"user": "Henry", "rating": 4, "comment": "Very clean, but light for colder days."}
+  ]
+}
+  ]

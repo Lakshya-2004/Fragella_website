@@ -1,0 +1,135 @@
+/* =======================
+   CART CONTAINER
+======================= */
+.cart-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 20px;
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+}
+
+/* CART TITLE */
+.cart-container h1 {
+  font-size: 36px;
+  text-align: center;
+  color: #ff4081;
+  margin-bottom: 30px;
+}
+
+/* EMPTY CART MESSAGE */
+.cart-container p {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* CART ITEMS GRID */
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* EACH CART ITEM */
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cart-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* CART ITEM IMAGE */
+.cart-item img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* CART ITEM INFO */
+.cart-info h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.cart-info p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+/* REMOVE BUTTON */
+.cart-info button {
+  background-color: #ff4081;
+  color: #fff;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.cart-info button:hover {
+  background-color: #e73370;
+  transform: translateY(-2px);
+}
+
+/* TOTAL PRICE */
+.cart-items h2 {
+  text-align: right;
+  font-size: 24px;
+  color: #ff4081;
+  margin-top: 20px;
+}
+
+/* =======================
+   RESPONSIVE
+======================= */
+@media (max-width: 900px) {
+  .cart-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .cart-items h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .cart-item img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .cart-info h3 {
+    font-size: 18px;
+  }
+
+  .cart-info p {
+    font-size: 14px;
+  }
+
+  .cart-info button {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+
+  .cart-items h2 {
+    font-size: 20px;
+  }
+}

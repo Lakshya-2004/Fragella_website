@@ -1,0 +1,50 @@
+/* Container styling for full page */
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-color: #000000; 
+  color: #ffffff; 
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Error heading */
+.error-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ffffff; 
+}
+
+/* Home link */
+.error-container .home-link {
+  text-decoration: none;
+  color: #8ea7fa;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: 2px solid #c9ccd5;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.error-container .home-link:hover {
+  background-color: #ff0000;
+  color: rgb(8, 8, 8);
+  transform: scale(1.05);
+}
+
+.btn {
+  text-decoration: none;
+  color: #8ea7fa;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: 2px solid #c9ccd5;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  background: none;
+  cursor: pointer;
+}

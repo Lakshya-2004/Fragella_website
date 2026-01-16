@@ -1,0 +1,46 @@
+/* Center container */
+.spinner-container {
+  position: fixed; /* Always in the middle */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:rgb(193, 191, 191); /* optional: semi-transparent overlay */
+  z-index: 9999;
+}
+
+/* The ball */
+.spinner-ball {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #ff3d00, #ffea00, #00e5ff, #ff3d00);
+  background-size: 600% 600%;
+  animation: spin 1s linear infinite, colorShift 4s ease-in-out infinite;
+}
+
+/* Rotate animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Color transition animation */
+@keyframes colorShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

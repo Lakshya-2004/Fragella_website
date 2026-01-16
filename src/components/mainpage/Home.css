@@ -1,0 +1,294 @@
+/* =======================
+   General
+======================= */
+.home {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+/* =======================
+   Cover Section
+======================= */
+.cover-section {
+  position: relative;
+  height: 600px;
+  background: url('/public/home.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 5px solid goldenrod;
+}
+
+.cover-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 50px 40px;
+  border-radius: 15px;
+  text-align: center;
+  color: #fff;
+  max-width: 800px;
+  animation: fadeIn 1s ease forwards;
+}
+
+.cover-overlay h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+.cover-overlay p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.shop-now-btn {
+  padding: 15px 35px;
+  font-size: 18px;
+  background-color: #ff4081;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.shop-now-btn:hover {
+  background-color: #e73370;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+/* =======================
+   Features Section
+======================= */
+.features-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.features-section h2 {
+  font-size: 38px;
+  margin-bottom: 40px;
+  color: #ff4081;
+}
+
+.features-cards {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background: #fff;
+  padding: 25px;
+  width: 260px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+.feature-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-radius: 12px;
+}
+
+.feature-card h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: #e09200;
+}
+
+.feature-card p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* =======================
+   Perfume Section
+======================= */
+.perfume-section {
+  padding: 60px 20px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+}
+
+.perfume-section h2 {
+  grid-column: 1 / -1;
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #ff4081;
+  text-align: center;
+}
+
+.perfume-section section {
+  padding: 25px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.perfume-section section:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+.perfume-section img {
+  width: 100%;
+  max-width: 320px;
+  height: 400px;
+  object-fit: cover;
+  margin: 0 auto 20px;
+  border-radius: 12px;
+  display: block;
+}
+
+/* =======================
+   Perfume Grid
+======================= */
+.perfume-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  margin-top: 15px;
+}
+
+.perfume-card {
+  background: #fff;
+  width: 180px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #333;
+}
+
+.perfume-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+.perfume-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 20px 0 10px 0;
+}
+
+.perfume-card h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.perfume-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.perfume-card h4 {
+  font-size: 16px;
+  color: #ff4081;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+/* =======================
+   Reviews Section
+======================= */
+.reviews-section {
+  padding: 60px 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.reviews-section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #ff4081;
+}
+
+.reviews-grid {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.review-card {
+  background: #fff;
+  width: 260px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+.review-card h4 {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* =======================
+   Responsive
+======================= */
+@media (max-width: 900px) {
+  .perfume-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .features-cards,
+  .reviews-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cover-overlay h1 {
+    font-size: 36px;
+  }
+
+  .cover-overlay p {
+    font-size: 18px;
+  }
+
+  .perfume-card img {
+    margin: 15px 0 10px 0;
+  }
+}

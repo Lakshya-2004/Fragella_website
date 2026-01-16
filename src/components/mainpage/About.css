@@ -1,0 +1,273 @@
+/* ================= GLOBAL ================= */
+.about-page {
+  font-family: "Poppins", sans-serif;
+  color: #222;
+  background-color: #fafafa;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+/* ================= HERO SECTION ================= */
+
+
+
+
+.about-hero {
+  position: relative;
+  height: 80vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("/public/about.jpg") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  border-bottom: 5px solid goldenrod;
+}
+
+.about-hero-content {
+  max-width: 800px;
+  padding: 0 20px;
+  animation: fadeUp 1.2s ease;
+}
+ .about-hero-content h1{
+  color: #c59d5f;
+ }
+.about-hero h1 {
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #ffa600;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  opacity: 0.9;
+  margin-bottom: 30px;
+}
+
+.hero-highlights {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-size: 0.95rem;
+}
+
+.hero-highlights span {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 8px 16px;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+}
+
+.about-hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* ================= CONTENT SECTIONS ================= */
+.about-section {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 20px;
+  animation: fadeUp 1.2s ease;
+}
+
+.about-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.about-section h2::after {
+  content: "";
+  width: 80px;
+  height: 3px;
+  background: #ff9900;
+  display: block;
+  margin-top: 8px;
+}
+
+.about-section p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* ================= LIST ================= */
+.about-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about-list li {
+  font-size: 1.05rem;
+  padding: 10px 0;
+  padding-left: 30px;
+  position: relative;
+  animation: slideLeft 0.8s ease;
+}
+
+.about-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #c59d5f;
+  font-weight: bold;
+}
+
+/* ================= REVIEWS SECTION ================= */
+.reviews-section {
+  background-color: #111;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.reviews-section h2 {
+  font-size: 2.4rem;
+  margin-bottom: 50px;
+}
+
+/* ---- SCROLLING CONTAINER ---- */
+.reviews-grid {
+  display: flex;
+  gap: 30px;
+  white-space: nowrap;
+  animation: scrollLeft 40s linear infinite;
+}
+
+/* Pause on hover */
+.reviews-grid:hover {
+  animation-play-state: paused;
+}
+
+/* ---- REVIEW CARD ---- */
+.review-card {
+  min-width: 320px;
+  max-width: 320px;
+  background: #1c1c1c;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+.review-card p {
+  font-style: italic;
+  color: #ddd;
+  margin-bottom: 15px;
+  white-space: normal;
+}
+
+.review-card h4 {
+  color: #c59d5f;
+  font-weight: 500;
+}
+
+/* ================= FOOTER ================= */
+.about-footer {
+  padding: 80px 20px;
+  text-align: center;
+  background: #f5f5f5;
+  animation: fadeUp 1s ease;
+}
+
+.about-footer h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.about-footer p {
+  max-width: 700px;
+  margin: auto;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* ================= ANIMATIONS ================= */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* ---- RIGHT TO LEFT SCROLL ---- */
+@keyframes scrollLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .reviews-section h2 {
+    font-size: 2rem;
+  }
+
+  .review-card {
+    min-width: 280px;
+  }
+}
