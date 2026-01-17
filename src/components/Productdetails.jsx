@@ -2,6 +2,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import api from "../api/api.json";
 import axios from "axios";
 import "./Productdetails.css";
+import { FaShare } from "react-icons/fa";
 
 export const Productdetails = () => {
   const { id } = useParams();
@@ -82,7 +83,7 @@ const handleBuyNow = async () => {
             }
           }}
         >
-          Share Product
+          <FaShare/>
         </button>
 
        <button className="buy-now-button" onClick={handleBuyNow}>

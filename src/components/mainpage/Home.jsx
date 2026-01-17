@@ -50,6 +50,37 @@ export const Home = () => {
         </div>
       </section>
 
+      {/* WHY CHOOSE US */}
+<section className="features-section">
+  <h2>Why Choose Perfecto</h2>
+  <div className="features-cards">
+    <div className="feature-card">
+      <h3>Curated Luxury</h3>
+      <p>
+        Each fragrance is handpicked by experts to ensure premium quality,
+        lasting aroma, and unforgettable impressions.
+      </p>
+    </div>
+
+    <div className="feature-card">
+      <h3>Global Brands</h3>
+      <p>
+        We partner with internationally recognized perfume houses
+        to bring authentic fragrances directly to you.
+      </p>
+    </div>
+
+    <div className="feature-card">
+      <h3>Customer First</h3>
+      <p>
+        Easy returns, responsive support, and secure payments —
+        your satisfaction is our priority.
+      </p>
+    </div>
+  </div>
+</section>
+
+
       {/* ================= PERFUME CATEGORIES ================= */}
       <section className="perfume-section">
         <h2>Our Collections</h2>
@@ -207,6 +238,34 @@ export const Home = () => {
         </div>
       </section>
 
+
+{/* HOW IT WORKS */}
+<section className="features-section">
+  <h2>How It Works</h2>
+  <div className="features-cards">
+    <div className="feature-card">
+      <h3>1. Explore</h3>
+      <p>
+        Browse through curated collections for men, women, and unisex fragrances.
+      </p>
+    </div>
+
+    <div className="feature-card">
+      <h3>2. Choose</h3>
+      <p>
+        Read detailed descriptions, notes, and categories to find your perfect match.
+      </p>
+    </div>
+
+    <div className="feature-card">
+      <h3>3. Checkout</h3>
+      <p>
+        Add to cart, enjoy secure checkout, and get your fragrance delivered fast.
+      </p>
+    </div>
+  </div>
+</section>
+
       {/* ================= REVIEWS ================= */}
       <section className="reviews-section">
         <h2>Customer Reviews</h2>
@@ -225,6 +284,61 @@ export const Home = () => {
           </div>
         </div>
       </section>
+
+
+{/* NEWSLETTER */}
+<section className="reviews-section">
+  <h2>Stay Inspired</h2>
+  <p style={{ maxWidth: "600px", margin: "0 auto 30px", color: "#ccc" }}>
+    Subscribe to receive exclusive offers, new arrivals,
+    and fragrance tips straight to your inbox.
+  </p>
+
+  <div style={{ display: "flex", justifyContent: "center", gap: "10px" }}>
+    <input
+      type="email"
+      placeholder="Enter your email"
+      style={{
+        padding: "12px 18px",
+        borderRadius: "25px",
+        border: "none",
+        width: "260px",
+      }}
+    />
+    <button className="shop-now-btn">Subscribe</button>
+  </div>
+</section>
+
+
+{/* FOOTER */}
+<footer className="features-section">
+  <div className="features-cards">
+    <div className="feature-card">
+      <h3>Perfecto</h3>
+      <p>
+        Luxury fragrances crafted to express your personality and elevate every moment.
+      </p>
+    </div>
+
+    <div className="feature-card">
+      <h3>Quick Links</h3>
+      <p>Home</p>
+      <p>Products</p>
+      <p>Cart</p>
+      <p>Contact</p>
+    </div>
+
+    <div className="feature-card">
+      <h3>Contact</h3>
+      <p>Email: support@perfecto.com</p>
+      <p>Phone: +1 234 567 890</p>
+    </div>
+  </div>
+
+  <p style={{ marginTop: "30px", color: "#777" }}>
+    © 2026 Perfecto. All rights reserved.
+  </p>
+</footer>
 
     </div>
   );
